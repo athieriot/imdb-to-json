@@ -18,5 +18,4 @@ cabal-version:       >=1.8
 executable imdb-to-json
   main-is:             imdbtojson.hs
   -- other-modules:
-  build-depends:       base ==4.5.*, cmdargs, text, regex-tdfa, directory, filepath, utf8-string
-  extensions:          RecordWildCards
+  build-depends:       base ==4.5.*, cmdargs, text, regex-tdfa, directory, filepath, utf8-string, json
